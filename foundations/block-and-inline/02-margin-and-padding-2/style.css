@@ -1,27 +1,50 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  
 }
 
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+
 }
 
 .title {
   background: #e3f4ff;
+  padding: 15px;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 15px;
+  margin: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  margin: 15px auto;
+  margin-bottom: 5px;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
+  display: block;
 }
+
+/* Can specify specifically which margins to change -> padding can do two data points*/
